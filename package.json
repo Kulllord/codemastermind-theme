@@ -1,12 +1,12 @@
 {
-	"name": "cmm_t",
-	"description": "Theme boiler plate from with bootstrap",
+	"name": "codemastermind-theme",
+	"description": "The WordPress theme for codemastermind.com based on my cmm_s",
 	"keywords": ["wordpress", "theme", "bootstrap", "sass"],
 	"author": "Christopher Parker",
 	"version": "0.1.0",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Kulllord/cmm_s"
+		"url": "https://github.com/Kulllord/codemastermind-theme"
 	},
 	"dependencies": {
 		"autoprefixer": "^6.3.2",
