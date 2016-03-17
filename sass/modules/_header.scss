@@ -1,0 +1,13 @@
+.site-title {
+	a {
+//		&:visited {
+//			color: $brand-primary;
+//		}
+
+		&:hover,
+		&:focus {
+			// color: ;
+			text-decoration: none;
+		}
+	}
+}
