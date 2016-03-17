@@ -1,0 +1,4 @@
+// px font-size
+@mixin font-size($sizeValue: 1) {
+	font-size: ceil(($sizeValue * $font-size-base));
+}

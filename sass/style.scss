@@ -1,0 +1,54 @@
+/*!
+Theme Name: cmm_s
+Theme URI: https://github.com/Kulllord/cmm_s
+Author: Christopher Parker
+Author URI: http://codemastermind.com
+Description: A WordPress boilerplate template with bootstrap.
+Version: 0.1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: cmm_s
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+cmm_s is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Typography
+# Accessibility
+# Alignments
+# Clearings
+# Elements
+# Media
+	## Captions
+	## Galleries
+# Infinite scroll
+# Header
+# Navigation
+	## Links
+	## Menus
+		### Main Menu
+		### Misc Menus
+# Content
+	## Posts and pages
+	## Asides
+# Forms
+# Comments
+# Footer
+# Widgets
+--------------------------------------------------------------*/
+@import "utilities/variables/index";
+@import "utilities/mixins/index";
+
+@import "bootstrap-custom";
+/*! END Bootstrap START Theme code */
+
+@import "base/index";
+@import "modules/index";
+@import "widgets/index";
