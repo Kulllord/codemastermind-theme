@@ -1,13 +1,32 @@
+.site-header {
+	border-bottom: 1px solid $gray-lighter;
+	margin-bottom: $line-height-computed;
+}
+
+.site-branding {
+	float: left;
+}
+
 .site-title {
+	font-size: 34px;
+	line-height: 1;
+	height: 60px;
+	margin: 10px 0;
+	padding-top: 2px;
+
 	a {
-//		&:visited {
-//			color: $brand-primary;
-//		}
+		display: block;
+		color: $text-color;
 
 		&:hover,
 		&:focus {
-			// color: ;
+			color: $link-hover-color;
 			text-decoration: none;
 		}
+	}
+
+	.small {
+		display: block;
+		text-align: right;
 	}
 }
