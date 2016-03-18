@@ -30,13 +30,15 @@ $postID = $post->ID;
 	<header id="masthead" class="site-header" role="banner">
 		<div class="container">
 			<div class="site-branding">
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' );
-				?></a><?php
-				$description = get_bloginfo( 'description', 'display' );
-				if ( $description || is_customize_preview() ) :
-					?><br><span class="site-description small"><?php echo $description; /* WPCS: xss ok. */
-				?></span><?php
-				endif; ?></h1>
+				<h1 class="site-title">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+					<?php
+					$description = get_bloginfo( 'description', 'display' );
+
+					if ( $description || is_customize_preview() ) : ?>
+						<span class="site-description small"><?php echo $description; /* WPCS: xss ok. */ ?></span>
+					<?php endif; ?>
+				</h1>
 			</div><!-- .site-branding -->
 
 			<nav id="site-navigation" class="main-navigation" role="navigation">
