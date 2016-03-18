@@ -3,10 +3,10 @@
 --------------------------------------------------------------*/
 
 .main-navigation {
-	clear: both;
+	// clear: both;
 	display: block;
-	float: left;
-	width: 100%;
+	float: right;
+	// width: 100%;
 
 	ul {
 		display: none;
@@ -18,7 +18,7 @@
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 			float: left;
 			position: absolute;
-			top: ($line-height-computed / 2);
+			top: 100%;
 			left: -999em;
 			z-index: 99999;
 
@@ -35,7 +35,7 @@
 			}
 
 			a {
-				width: 200px;
+
 			}
 
 			:hover > a,
@@ -50,6 +50,15 @@
 		li:hover > ul,
 		li.focus > ul {
 			left: auto;
+		}
+	}
+
+	.menu {
+		> li {
+			> a {
+				position: relative;
+				padding: 29px 15px;
+			}
 		}
 	}
 
