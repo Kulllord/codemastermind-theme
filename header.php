@@ -9,9 +9,6 @@
  * @package cmm_s
  */
 
-global $post;
-$postID = $post->ID;
-
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
