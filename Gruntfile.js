@@ -116,12 +116,6 @@ module.exports = function(grunt) {
 				]
 			}
 		},
-		/*concat: {
-			dist: {
-				src: ['js/concat/*.js'],
-				dest: 'js/project.js'
-			}
-		},*/
 
 		/**
 		 * Minify files with UglifyJS.
